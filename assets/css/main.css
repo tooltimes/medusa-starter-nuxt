@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply text-body-800;
+body,
+a {
+  @apply text-body-700;
 }
 
 h1,

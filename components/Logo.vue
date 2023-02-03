@@ -1,10 +1,6 @@
 <template>
   <div>
-    <NuxtLink
-      to="/"
-      class="font-display text-3xl text-body-700"
-      v-bind="$attrs"
-    >
+    <NuxtLink to="/" class="font-display text-3xl" v-bind="$attrs">
       {{ appConfig.brand.name }}
     </NuxtLink>
   </div>
